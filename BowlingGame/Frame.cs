@@ -15,11 +15,5 @@ namespace BowlingGame
         }
         public int FirstRoll { get; set; }
         public int SecondRoll { get; set; }
-
-        // public bool Spare => FirstRoll != 10 && FirstRoll + SecondRoll == 10;
-        public bool Spare { get; }
-
-        // public bool Strike => FirstRoll == 10;
-        public bool Strike { get; }
     }
 }

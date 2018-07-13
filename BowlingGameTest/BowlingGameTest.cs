@@ -29,8 +29,6 @@ namespace BowlingGameTest
                 g.Roll(firstRoll, secondRoll);
         }
 
-
-
         [Test]
         public void TestAllOnes()
         {
